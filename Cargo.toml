@@ -1,0 +1,11 @@
+
+[workspace]
+members = [
+    "src/cli",
+]
+
+[profile.dev]
+opt-level = 2
+
+[profile.release]
+lto = true

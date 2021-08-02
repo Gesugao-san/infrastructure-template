@@ -3,16 +3,25 @@
 # top-most EditorConfig file
 root = true
 
+[*.md]
+trim_trailing_whitespace = false
+
+[*.py]
+indent_style = space
+
+[*.yml, *.yaml]
+indent_size = 2
+indent_style = space
+
+[Dockerfile]
+indent_style = space
+
 [*]
 charset = utf-8
-end_of_line = crlf
+end_of_line = lf
 files.encoding = "utf8"
 indent_size = 4
-indent_style = tab
+indent_style = space
 insert_final_newline = true
 max_line_length = 80
 trim_trailing_whitespace = true
-
-[*.yml]
-indent_size = 2
-indent_style = space

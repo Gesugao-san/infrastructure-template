@@ -1,0 +1,9 @@
+
+# https://github.com/stylelint/stylelint.io/blob/master/netlify.toml
+[build]
+    command = "npm run build"
+    publish = "build/"
+
+[[redirects]]
+    from = "/user-guide/configuration"
+    to = "/user-guide/configure"

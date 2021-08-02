@@ -1,0 +1,10 @@
+
+# https://github.com/Microsoft/vscode-vsce/issues/12
+
+# Ignore everything
+#*
+#*/**
+
+# Whitelist what you need
+#!.vscodeignore
+#!src/*

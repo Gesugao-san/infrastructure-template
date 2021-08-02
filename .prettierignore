@@ -1,0 +1,16 @@
+
+# https://prettier.io/docs/en/ignore.html
+
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+
+
+**/*.css
+node_modules/
+.docusaurus/
+build/
+docs/

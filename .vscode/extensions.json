@@ -1,7 +1,9 @@
 {
     "recommendations": [
 		"andreabbondanza.ignoregit",
+		"bungcip.better-toml",
 		"codezombiech.gitignore",
+		"davidanson.vscode-markdownlint",
 		"eamodio.gitlens",
 		"github.vscode-pull-request-github",
 		"ibm.output-colorizer",
@@ -16,6 +18,7 @@
 		"usernamehw.errorlens",
 		"wwm.better-align",
 		"xshrim.txt-syntax",
+		"ymotongpoo.licenser",
 		"yzhang.markdown-all-in-one",
 	]
 }
