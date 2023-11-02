@@ -9,12 +9,12 @@ def _main():
     #
 
 if __name__ == "__main__":
-    print("run")
-    print()
+    print('run', flush=True)
+    print('-'*10)
 
     _main()
 
-    print()
-    print("stop")
+    print('-'*10)
+    print('stop')
 
 SystemExit(0) # exit(0)
